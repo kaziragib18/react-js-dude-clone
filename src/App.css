@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+*{
+  margin:  0px;
+  padding:  0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  height:  50px;
+  background-color: #1b1a1a;
+  color: #ffffff;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 80px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+
+}
+.nav__title{
+  font-size: 18px;
+  font-weight:400;
+  color: rgb(153, 145, 145);
+  padding-left: 24px;
+}
+
+.sign__in{
+  padding: 10px 10px;
+  background-color: rgb(94, 197, 94);
+  color: rgb(255, 249, 249);
+  border-radius: 5px;
+}
+
+.header__main{
+  background-color: #eeee;
+  height: 350px;
+  padding: 40px 70px;
+}
+
+.details__button{
+  background-color:  rgb(54, 173, 228);;
   color: white;
+  padding: 12px;
+  font-size: 16px;
+  margin: 10px  0px 10px 33px;
+  border-radius: 5px;
+  border: rgb(54, 173, 228);
+
 }
 
-.App-link {
-  color: #61dafb;
+.header__title{
+  font-family: sans-serif;
+  font-size: 65px;
+  font-weight: 300;
+  padding: 30px 30px 12px 30px;
+  color: rgb(49, 49, 49);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header__text{
+  font-size: 20px;
+  padding: 0px 0px 10px 33px;
+  color: rgb(49, 49, 49);
+}
+.main{
+  width: 100%;
+  height:  920px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.left{
+  width: 73%;
+}
+
+.right{
+  background-color: rgba(240, 240, 240, 0.596);
+  border-radius: 5px;
+  width: 27%;
+  padding: 20px 0px 10px 10px;
+ 
+}
+
+.js__config{
+  padding: 20px 30px;
+}
+
+#tutorial_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 10px 20px;
+}
+
+#personal_training,#recent_video,#recent_talks,#recent_invite{
+  margin:  10px 20px;
+  padding: 5px;
+  
+}
+ul{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #25b5ce;
+  padding: 5px 0px 10px 40px;
+}
+
+.card__title{
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(54, 173, 228);
+  padding: 0px 0px 3px 10px;
+}
+.card__text{
+  font-size: 14px;
+  padding: 10px;
+}
+
+.card__button{
+  background-color: rgb(255, 255, 255) ;
+  color: rgb(24, 23, 23);
+  font-size: 14px;
+  padding: 7px;
+  margin: 5px  0px 10px 10px;
+  border-radius: 5px;
+  border-color: rgb(241, 241, 241) ;
+  
+
+}
+
+.footer h5{
+  font-size: 14px;
+  font-weight: 200;
+ display: flex;
+ justify-content: center;
+ padding: 5px;
+ margin: 10px 0px 10px 0px;
+}
+
+h4{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #201f1f;
+  margin: 5px 0px 10px 0px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: rgb(38, 148, 199);
+}
+
+.side__text{
+  font-size: 15px;
 }
