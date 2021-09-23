@@ -41,11 +41,16 @@ function Main() {
 
 function Left() {
   const [tutorials, setTutorials] = useState([])
-
+//with fake api data 
   useEffect(() => {
     setTutorials(tutorialData)
   }, [])
 
+  // from server api data
+  
+  // fetch('https://raw.githubusercontent.com/abedinforhan/json-data/main/')
+  // .then(res=>res.json())
+  // .then(data=>setTutorials(data))
   // console.log(tutorials);
 
   return (
